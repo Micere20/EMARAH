@@ -1,0 +1,208 @@
+header {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #11d8c7;
+}
+
+.fab {
+    color: rgb(18, 18, 19);
+   }
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 8vh;
+    background-color: #420ca7;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.menu ul li a {
+    display: flex;
+    color: rgb(242, 246, 250);
+    text-align: center;
+    padding: 12px 14px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: #a80c93;
+}
+
+main {
+    padding: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    /* Your CSS rules for screens smaller than 768 pixels go here */
+}
+
+
+ /* Slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+/* Slides */
+.slide {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Fade animation for the slides */
+.fade {
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+}
+
+  
+   #myButton {
+    background-color: rgb(226, 112, 19);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+   .fade {
+    opacity: 0;
+   }
+/* Style the check-availability section */
+.check-availability {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.check-availability h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style the form inside check-availability */
+#check-availability-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style labels */
+label {
+    font-weight: bold;
+}
+
+/* Style date input fields */
+input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+}
+
+/* Style the button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the "about" section */
+.about {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the heading */
+.about h1 {
+    font-family: 'Your Font', sans-serif; /* Change 'Your Font' to the desired font */
+    font-size: 24px;
+    color: #333; /* Adjust the color as needed */
+}
+
+/* Style the "about" section */
+.about {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the heading with the custom font */
+.about h1 {
+    font-family: 'CustomFont', sans-serif; /* Use the font-family name defined in the @font-face rule */
+    font-size: 24px;
+    color: #cc1818;
+}
+
+/* Style the content with the custom font */
+.about .content {
+    font-family: 'CustomFont', sans-serif; /* Use the font-family name defined in the @font-face rule */
+    font-size: 22px;
+    color: #800404;
+    margin-top: 20px;
+}
+
+
+/* Add this CSS to your stylesheet (e.g., styles.css) */
+footer {
+    font-family: "Arial", sans-serif; /* Change the font-family to your preferred font */
+    background-color: #333; /* Optional: Adjust the background color */
+    color: #fff; /* Optional: Adjust the text color */
+    padding: 10px;
+    text-align: center;
+}
+
+footer .copyright, footer .version {
+    font-family: "Arial", sans-serif; /* Change the font-family to your preferred font */
+}
+
+

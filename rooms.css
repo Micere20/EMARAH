@@ -1,0 +1,82 @@
+ header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(16, 99, 194);
+    display: inline-block;
+   }
+
+   .image-paragraph-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center the items */
+}
+
+img {
+    max-width: 50%; /* Adjust the width of the image as needed */
+    margin-right: 20px; /* Add some space between the image and the paragraph */
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 8vh;
+    max-width: fit-content;
+    background-color: #420ca7;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.menu ul li a {
+    display: flex;
+    color: rgb(242, 246, 250);
+    text-align: center;
+    padding: 12px 14px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: #a80c93;
+}
+#myButton {
+    background-color: rgb(226, 112, 19);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+ 
+.image-paragraph-container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+}
+
+/* Add this CSS to your stylesheet (e.g., styles.css) */
+footer {
+    font-family: "Arial", sans-serif; /* Change the font-family to your preferred font */
+    background-color: #333; /* Optional: Adjust the background color */
+    color: #fff; /* Optional: Adjust the text color */
+    padding: 10px;
+    text-align: center;
+}
+
+footer .copyright, footer .version {
+    font-family: "Arial", sans-serif; /* Change the font-family to your preferred font */
+}
+
+@media screen and (max-width: 600px) {
+    /* Your CSS rules for screens smaller than 768 pixels go here */
+}
